@@ -1,0 +1,54 @@
+/* BOOKING.JSX STYLES */
+
+.submit {
+
+    transition: ease-in-out 250ms;
+}
+
+.bh {
+
+    height: 10svh;
+    transition: 400ms ease-in-out;
+    transform-origin: bottom;
+}
+
+.bh.active {
+
+    height: 100svh !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.h-10 {
+
+    height: 10%;
+}
+
+
+
+/* BOOKINGACTIVE.JSX */
+
+.h-90 {
+
+    height: 90%;
+}
+
+.bm {
+
+    transition: 500ms ease-in-out;
+    transform-origin: bottom;
+}
+
+.bm-bottom {
+
+    height: 10svh;
+    width: 96vw;
+    left: 2vw !important;
+    transition: 600ms ease-in-out;
+}
+
+.bm-bottom .btn {
+
+    height: 75% !important;
+    width: 35%;
+}
